@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>CURSO FDP - 1 Modulo 3</title>
+
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<script src="js/autenticacao.js"></script>
+
+</head>
+
+<body>
+
+	<form method="POST" onsubmit="return aut.validarCampos()">
+		<!-- <label>Usu�rio</label>-->
+		<input id="txtUsuario" nome="txtUsuario" type="text" value="" placeholder="Usuário">
+
+		<!-- <label>Senha</label>-->
+		<input id="txtSenha" nome="txtSenha" type="password" value="" placeholder="Senha">
+
+		<input type="submit" value="Autenticar">
+	</form>
+
+</body>
+
+</html>
